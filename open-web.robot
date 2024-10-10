@@ -1,11 +1,11 @@
 *** Settings ***
-Resource    D:/Testing-HW/import.resource
-Variables   D:/Testing-HW/data.yml
-Variables   D:/Testing-HW/prices.yml
+Resource    D:/Testing-HW/HW-Testing/import.resource
+Variables   D:/Testing-HW/HW-Testing/data.yml
+Variables   D:/Testing-HW/HW-Testing/prices.yml
 Test Template    test case
 
 *** Test Cases ***    csv
-E   D:/Testing-HW/xlsxx.csv
+E   D:/Testing-HW/HW-Testing/xlsxx.csv
 
 *** Keywords ***
 Test case
